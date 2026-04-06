@@ -1,0 +1,30 @@
+{
+  "name": "mierae-solar-sales-bot",
+  "version": "1.0.0",
+  "description": "Production-ready multilingual AI Sales Chatbot for Mierae Solar",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "node src/test-conversation.js"
+  },
+  "keywords": [
+    "chatbot",
+    "sales",
+    "solar",
+    "ai",
+    "multilingual"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "dotenv": "^16.3.1",
+    "cors": "^2.8.5",
+    "axios": "^1.6.2",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
